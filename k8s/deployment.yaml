@@ -43,7 +43,7 @@ spec:
   ports:
     - port: 5050
       targetPort: 5050
-      nodePort: 3250
+      nodePort: 30080
   selector:
     app: backend
 
@@ -81,6 +81,6 @@ spec:
   ports:
     - port: 5173
       targetPort: 5173
-      nodePort: 3251
+      nodePort: 30081
   selector:
     app: frontend
